@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "DeTour",
+    "slug": "FirstProject",
+    "icon":"icon.png",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage":"./icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.asadparkar.FirstProject"
+    },
+    "web": {},
+    "extra": {
+      "eas": {
+        "projectId": "80362c4d-c05a-4fee-ad27-d580bc00ea8b"
+      }
+    }
+  }
+}
